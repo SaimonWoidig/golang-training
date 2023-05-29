@@ -5,6 +5,6 @@
 .vscode
 
 # Go
-/hello-world
-/hello-world.exe
+/golang-training
+/golang-training.exe
 /dist
