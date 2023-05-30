@@ -1,0 +1,3 @@
+FROM scratch
+COPY golang-training /golang-training
+ENTRYPOINT [ "/golang-training" ]
