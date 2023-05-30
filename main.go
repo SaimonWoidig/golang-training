@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/SaimonWoidig/golang-training/cmd"
 )
 
 func main() {
-	fmt.Println("Hello from Go!")
+	cmd.Execute()
 }
