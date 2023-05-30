@@ -49,6 +49,6 @@ func init() {
 		&FlagGin,
 		"gin",
 		"g",
-		true,
+		false,
 		"Whether to run server as a Gin server")
 }
