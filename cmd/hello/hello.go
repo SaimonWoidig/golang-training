@@ -1,9 +1,8 @@
 package hello
 
 import (
-	"fmt"
-
 	"github.com/SaimonWoidig/golang-training/cmd/root"
+	"github.com/SaimonWoidig/golang-training/pkg/hello"
 	"github.com/spf13/cobra"
 )
 
@@ -14,7 +13,7 @@ var Cmd = &cobra.Command{
 	Short: "Prints a greeting",
 	Args:  cobra.NoArgs,
 	Run: func(c *cobra.Command, args []string) {
-		fmt.Printf("Hello %s!\n", FlagName)
+		hello.PrintSayHello(FlagName)
 	},
 }
 
