@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	_ "github.com/SaimonWoidig/golang-training/cmd/gorm"
 	_ "github.com/SaimonWoidig/golang-training/cmd/hello"
 	"github.com/SaimonWoidig/golang-training/cmd/root"
 	_ "github.com/SaimonWoidig/golang-training/cmd/server"
