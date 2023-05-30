@@ -19,10 +19,10 @@ builds:
     ldflags:
       - -s
       - -w
-      - -X golang-training/version.Version=v{{.Version}}
+      - -X github.com/SaimonWoidig/golang-training/version.Version=v{{.Version}}
 
 snapshot:
-  name_template: "{{ incminor .Version }}-dev"
+  name_template: "{{ incminor .Version }}-dev-{{ .ShortCommit }}{{ .IsGitDirty }}-dirty"
 
 archives:
   - format: tar.gz
