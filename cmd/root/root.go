@@ -8,6 +8,6 @@ import (
 var FlagName string
 
 var Cmd = &cobra.Command{
-	Use:   "golang_training",
-	Short: "golang_training " + version.Version,
+	Use:   "golang-training",
+	Short: "golang-training " + version.Version,
 }

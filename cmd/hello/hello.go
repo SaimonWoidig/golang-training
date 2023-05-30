@@ -12,6 +12,7 @@ var FlagName string
 var Cmd = &cobra.Command{
 	Use:   "hello",
 	Short: "Prints a greeting",
+	Args:  cobra.NoArgs,
 	Run: func(c *cobra.Command, args []string) {
 		fmt.Printf("Hello %s!\n", FlagName)
 	},
