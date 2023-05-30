@@ -51,7 +51,7 @@ dockers:
       - "--label=org.label-schema.name={{.ProjectName}}"
       - "--label=com.github.actions.name={{.ProjectName}}"
       - "--label=repository=https://github.com/SaimonWoidig/golang-training"
-      - "--label=maintainer=SikaLabs <opensource@sikalabs.com>"
+      - "--label=maintainer=SimonWoidig <woidig.simon@gmail.com>"
 
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
